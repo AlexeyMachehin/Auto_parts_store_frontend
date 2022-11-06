@@ -1,5 +1,5 @@
 import { ProductDto } from './../../interfaces/product';
-import axios from "axios";
+import axios from "../../axios";
 import { fromDto } from "../../mapper/product-mapper";
 
 const getProducts = async () => {
